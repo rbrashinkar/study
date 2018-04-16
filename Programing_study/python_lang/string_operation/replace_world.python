@@ -1,0 +1,9 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
+#Python Program to Replace all Occurrences of ‘a’ with '$' in a String 
+str=raw_input("enter string:")
+print(str)
+str=str.replace('a','$')
+str=str.replace('A','$')
+print("Modified string is:")
+print(str)

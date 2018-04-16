@@ -1,0 +1,8 @@
+#!/usr/local/bin/python
+#Python Program to Count Number of Lowercase Characters in a String 
+str1=raw_input("enter the string:")
+count=0
+for i in str1:
+   if(i.islower()):
+      count=count+1
+print(count)

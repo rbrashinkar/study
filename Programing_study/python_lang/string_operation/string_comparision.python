@@ -1,0 +1,15 @@
+#Python Program to Take in Two Strings and Display the Larger String without Using Built-in Functions 
+s1=raw_input("enter first string")
+s2=raw_input("enter second string")
+count=0
+count1=0
+for i in s1:
+    count=count+1
+for j in s2:
+    count1=count1+1
+if(count > count1):
+   print "First string is greater string is:"
+   print(s1)
+else:
+    print "second string is greater string is:"
+    print(s2)

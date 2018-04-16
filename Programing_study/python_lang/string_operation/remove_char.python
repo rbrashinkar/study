@@ -1,0 +1,11 @@
+#!/usr/local/bin/python
+#Python Program to Remove the nth Index Character from a Non-Empty String 
+def function_remove(str,n):
+     first=str[:n]
+     last=str[n+1:]
+     return first + last
+str=raw_input("enter the string:")
+n=int(input("enter the index:"))
+print("Modified string is:")
+print(function_remove(str,n))
+

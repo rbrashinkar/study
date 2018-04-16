@@ -1,0 +1,13 @@
+#!/usr/local/bin/python
+#Python Program to Remove the Characters of Odd Index Values in a String 
+def modify(str1):
+   final=" "
+   for i in range(len(str1)):
+      if i%2==0:
+        final=final+str1[i]
+   return final
+str1=raw_input("enter the string:")
+print(str1)
+print("modifed string:")
+print(modify(str1))
+

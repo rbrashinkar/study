@@ -1,0 +1,8 @@
+#!/usr/local/bin/python
+#Python Program to Detect if Two Strings are Anagrams 
+s1=raw_input("enter first string:")
+s2=raw_input("enter second string:")
+if(sorted(s1)==sorted(s2)):
+   print("string are anagram")
+else:
+   print("string are not anagram")

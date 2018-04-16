@@ -1,0 +1,13 @@
+#!/usr/local/bin/python
+#Python Program to Form a New String where the First Character and the Last Character have been Exchanged 
+def function1(str,n):
+     s1=str[0]
+     s2=str[n-1]
+     s3=str[1:n-1]
+     return s2+s3+s1
+str=raw_input("enter the string")
+n=len(str)
+print(n)
+print("modified string is:")
+print(function1(str,n))
+

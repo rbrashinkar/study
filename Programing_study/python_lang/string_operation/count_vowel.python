@@ -1,0 +1,12 @@
+#!/usr/local/bin/python
+#Python Program to Count the Number of Vowels in a String 
+s1=raw_input("enter the string:")
+l1=['a','e','i','o','u','A','E','I','O','U']
+count=0
+for i in s1:
+   if(i in l1):
+       count=count+1
+  # if(s1[i]=='a' or s1[i]=='e' or s1[i]=='i' or s1[i]=='o' or s1[i]=='u'or s1[i]=='A' or s1[i]=='E' or s1[i]=='I' or s1[i]=='O' or s1[i]=='U'):
+             #  count=count+1
+print(count)
+
